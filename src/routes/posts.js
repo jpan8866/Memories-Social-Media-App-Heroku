@@ -1,6 +1,12 @@
 // put everything related to posts (i.e. cards) here
- import express from 'express'
- import { getPosts, createPost, updatePost, deletePost, likePost } from '../controllers/posts.js'
+import express from 'express';
+import {
+  getPosts,
+  createPost,
+  updatePost,
+  deletePost,
+  likePost,
+} from '../controllers/posts';
 // note in NodeJS, need to include the file extension (in react (i.e. client folder) we don't)
 
 const router = express.Router();
